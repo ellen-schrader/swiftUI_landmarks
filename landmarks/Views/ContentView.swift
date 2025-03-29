@@ -26,11 +26,6 @@ struct ContentView: View {
                 .tabItem{
                     Label("List", systemImage: "list.bullet")
                 }
-//            ProfileSummary()
-//                .tag(Tab.profile)
-//                .tabItem{
-//                    Label("Profile", systemImage: "person.circle")
-//                }
         }
         
     }
