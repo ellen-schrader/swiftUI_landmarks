@@ -12,6 +12,7 @@ struct ContentView: View {
     enum Tab {
         case featured
         case list
+        case profile
     }
     var body: some View {
         TabView(selection: $selectedTab){
@@ -25,6 +26,11 @@ struct ContentView: View {
                 .tabItem{
                     Label("List", systemImage: "list.bullet")
                 }
+//            ProfileSummary()
+//                .tag(Tab.profile)
+//                .tabItem{
+//                    Label("Profile", systemImage: "person.circle")
+//                }
         }
         
     }
